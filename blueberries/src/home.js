@@ -8,12 +8,20 @@ class Home extends Component {
 
             <header>
                 <div id="homeTitle">
-                    <img id="blueImg" src={blue}/>
                     <p id="homeText">
                     Blueberries
                     </p>
+                    <img id="blueImg" src={blue} alt="no img"/>
                 </div>
             </header>
+            <main>
+                <section id="options">
+                <div className="boxes"></div>
+                <div className="boxes"></div>
+                <div className="boxes"></div>
+                <div className="boxes"></div>
+                </section>
+            </main>
             <footer>
                 <div id="wave"></div>
                 <div id="wavy">

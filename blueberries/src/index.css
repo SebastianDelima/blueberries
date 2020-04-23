@@ -46,19 +46,33 @@ table {
 #wavy{
   height: 50vh;
   width: 100vw;
-  background: url('https://cdn.pixabay.com/photo/2015/03/26/09/40/blueberries-690072_1280.jpg') center ;
+  margin-top: 17vh;
+  background: url('./blueewave.png')  ;
 }
 
 
 #homeText{
-  position: relative;
-  bottom: 29vh;
+  color: #314166;
+  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-size: 20vw;
   font-weight: 900;
 }
 
 #blueImg{
+  margin-top: -2vh;
   width: 100vw;
 }
 
+#homeTitle{
+  margin-top: 10vh;
+}
+
+#options{
+  display: flex;
+}
+
+#boxes{
+  width: 40vw;
+  color: red;
+}
