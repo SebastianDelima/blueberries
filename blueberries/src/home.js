@@ -1,5 +1,8 @@
 import  React, { Component, Fragment} from 'react';
-import  blue from './blueberries.png'
+import  blue                          from './blueberries.png'
+import { NavLink }                    from 'react-router-dom';
+
+
 
 class Home extends Component {
     render(){
@@ -16,10 +19,13 @@ class Home extends Component {
             </header>
             <main>
                 <section id="options">
-                <div id="leftSide" className="boxes"><p  className="textBox">History</p></div>
-                <div className="boxes"><p className="textBox">Nutrients</p></div>
-                <div id="leftSide" className="boxes"><p id="weirdText" >Health <p>Benefits</p></p></div>
-                <div className="boxes"><p className="textBox">Recipes</p></div>
+                    <NavLink to="/history" id="leftSide" className="boxes"><div ><p  className="textBox">History</p></div></NavLink>
+
+                    <NavLink to="/nutrients"  className="boxes"><div><p className="textBox">Nutrients</p></div></NavLink>
+
+                    <NavLink to="/health" id="leftSide" className="boxes"><div ><p id="weirdText" >Health <p>Benefits</p></p></div></NavLink>
+
+                    <NavLink to="recipes" className="boxes"><div ><p className="textBox">Recipes</p></div></NavLink>
                 </section>
             </main>
             <footer>

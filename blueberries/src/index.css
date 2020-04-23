@@ -89,6 +89,11 @@ table {
   background-color: rgba(6, 138, 45, 0.883);
 }
 
+a {
+  color: inherit; 
+  text-decoration: inherit; 
+}
+
 #leftSide{
   margin-right: 4.5vh;
 
