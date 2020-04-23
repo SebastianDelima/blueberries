@@ -44,7 +44,7 @@ table {
 }
 
 #wavy{
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   margin-top: 17vh;
   background: url('./blueewave.png')  ;
@@ -69,10 +69,14 @@ table {
 }
 
 #options{
+  position: absolute;
   display: flex;
+  flex-direction: column;
+  margin: 0 15vw;
 }
 
-#boxes{
-  width: 40vw;
-  color: red;
+.boxes{
+  height: 30vh;
+  width: 70vw;
+  background-color: red;
 }

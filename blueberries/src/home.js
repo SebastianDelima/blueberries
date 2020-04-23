@@ -16,14 +16,14 @@ class Home extends Component {
             </header>
             <main>
                 <section id="options">
-                <div className="boxes"></div>
-                <div className="boxes"></div>
-                <div className="boxes"></div>
-                <div className="boxes"></div>
+                <div className="boxes">hello</div>
+                <div className="boxes">hello</div>
+                <div className="boxes">hello</div>
+                <div className="boxes">hello</div>
                 </section>
             </main>
             <footer>
-                <div id="wave"></div>
+                
                 <div id="wavy">
                 </div>
             </footer>
