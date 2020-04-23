@@ -44,18 +44,18 @@ table {
 }
 
 #wavy{
-  height: 100vh;
+  /* margin-top: 10%; */
+  height: 79vh;
   width: 100vw;
-  margin-top: 17vh;
   background: url('./blueewave.png')  ;
 }
 
 
 #homeText{
   color: #314166;
-  text-align: center;
+  padding-left: 2vw;
   font-family: 'Kaushan Script', cursive;
-  font-size: 20vw;
+  font-size: 18vw;
   font-weight: 900;
 }
 
@@ -70,13 +70,40 @@ table {
 
 #options{
   position: absolute;
+  top: 65vh;
   display: flex;
-  flex-direction: column;
-  margin: 0 15vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .boxes{
-  height: 30vh;
-  width: 70vw;
-  background-color: red;
+
+  font-weight: 800;
+  border-radius: 5px;
+  border-width: 1vw;
+  margin-top: 4vh;
+  height: 21vh;
+  width: 41vw;
+  background-color: rgba(6, 138, 45, 0.883);
+}
+
+#leftSide{
+  margin-right: 4.5vh;
+
+}
+
+#weirdText{
+  margin-top: 20%;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 8vw;
+  text-align: center;
+}
+
+.textBox{
+  margin-top: 30%;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 8vw;
+  text-align: center;
 }

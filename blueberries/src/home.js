@@ -16,10 +16,10 @@ class Home extends Component {
             </header>
             <main>
                 <section id="options">
-                <div className="boxes">hello</div>
-                <div className="boxes">hello</div>
-                <div className="boxes">hello</div>
-                <div className="boxes">hello</div>
+                <div id="leftSide" className="boxes"><p  className="textBox">History</p></div>
+                <div className="boxes"><p className="textBox">Nutrients</p></div>
+                <div id="leftSide" className="boxes"><p id="weirdText" >Health <p>Benefits</p></p></div>
+                <div className="boxes"><p className="textBox">Recipes</p></div>
                 </section>
             </main>
             <footer>
