@@ -1,0 +1,16 @@
+@media (min-width: 500px){
+    #wavy{
+        /* margin-top: 10%; */
+        height: 79vh;
+        width: 100vw;
+        background: none;
+      }
+
+      #homeText{
+        font-size: 14vw;
+      }
+
+      #homeTitle{
+          background: url('./blueBig.png') center no-repeat;
+      }
+}
