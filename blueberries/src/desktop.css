@@ -51,6 +51,9 @@
         width: 20vw;
       }
 
+      
+
+      
       #leftSide{
         margin-right: 0;
       
@@ -72,14 +75,56 @@
 
       #box1{
         background-color: rgba(72, 96, 168, 0.781);
-
-
       }
+
+      #box1::after{
+        content: '';
+        position: absolute;
+        border-radius: 7px;
+        top: 9vh;
+        left: 0;
+        background: rgb(144, 20, 144);
+        width: 20vw;
+        height: 10vw;
+        z-index: -1;
+        transition: transform  180ms ease-in;
+        transform: scaleY(0);
+        transform-origin: bottom;
+  }
+
+
+  #box1:hover::after{
+      transform: scaleY(1);
+  }
 
       #box2{
         background-color: rgba(122, 72, 168, 0.781);
-
+         
     }
+
+    #box2::after{
+        
+        content: '';
+        position: absolute;
+        border-radius: 7px;
+        top: 9vh;
+        left: 25.9%;
+        background: rgba(20, 144, 47, 0.527);
+        width: 20vw;
+        height: 10vw;
+        z-index: -1;
+        transition: transform  180ms ease-in;
+        transform: scaleX(0);
+        transform-origin: right;
+
+     
+  }
+
+
+  #box2:hover::after{
+      transform: scaleY(1);
+  }
+
 
     #box3{
         background-color: rgba(37, 93, 31, 0.781);
