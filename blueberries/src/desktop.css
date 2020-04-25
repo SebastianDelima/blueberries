@@ -1,8 +1,9 @@
 @media (min-width: 500px){
     #wavy{
         /* margin-top: 10%; */
-        height: 79vh;
-        width: 100vw;
+
+        height: 0;
+        width: 0;
         background: none;
       }
 
@@ -81,9 +82,9 @@
         content: '';
         position: absolute;
         border-radius: 7px;
-        top: 9vh;
+        top: 35%;
         left: 0;
-        background: rgb(144, 20, 144);
+        background: rgb(20, 53, 144);
         width: 20vw;
         height: 10vw;
         z-index: -1;
@@ -99,7 +100,7 @@
 
       #box2{
         background-color: rgba(122, 72, 168, 0.781);
-         
+        z-index: 1;
     }
 
     #box2::after{
@@ -107,11 +108,11 @@
         content: '';
         position: absolute;
         border-radius: 7px;
-        top: 9vh;
-        left: 25.9%;
-        background: rgba(20, 144, 47, 0.527);
-        width: 20vw;
-        height: 10vw;
+        top: -29%;
+        left: 37%;
+        background: rgba(122, 72, 168, 0.692);
+        width: 10vw;
+        height: 20vw;
         z-index: -1;
         transition: transform  180ms ease-in;
         transform: scaleX(0);
@@ -122,17 +123,55 @@
 
 
   #box2:hover::after{
-      transform: scaleY(1);
+      transform: scaleX(1);
   }
 
 
     #box3{
-        background-color: rgba(37, 93, 31, 0.781);
-
+        background-color: rgba(37, 93, 31, 0.726);
+        z-index: 1;
     }
+
+    #box3::after{
+        content: '';
+        position: absolute;
+        border-radius: 7px;
+        top: -29%;
+        left: 51.9%;
+        background:  rgba(21, 114, 36, 0.438);
+        width: 20vw;
+        height: 10vw;
+        z-index: -1;
+        transition: transform  180ms ease-in;
+        transform: scaleY(0);
+        transform-origin: top;
+  }
+
+  #box3:hover::after{
+    transform: scaleY(1);
+}
 
     #box4{
         background-color: rgba(53, 136, 175, 0.781);
  
     }
+
+    #box4::after{
+        content: '';
+        position: absolute;
+        border-radius: 7px;
+        top: 35%;
+        left: 77.8%;
+        background: rgb(20, 63, 144);
+        width: 20vw;
+        height: 10vw;
+        z-index: -1;
+        transition: transform  180ms ease-in;
+        transform: scaleY(0);
+        transform-origin: bottom;
+  }
+
+  #box4:hover::after{
+    transform: scaleY(1);
+}
 }
