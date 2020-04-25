@@ -7,10 +7,54 @@
       }
 
       #homeText{
-        font-size: 14vw;
+        font-family: 'Amatic SC', cursive;
+          color: white;
+          font-size: 14rem;
+          padding-top: 5vh;
       }
 
+      #blueImg{
+          opacity: 0;
+        width: 0;
+      }
+   
       #homeTitle{
+          height: 58vh;
+          margin: 0;
           background: url('./blueBig.png') center no-repeat;
+      }
+
+      #curveSvg{
+          position: relative;
+          bottom: 9vh;
+      }
+
+      #options{
+        position: absolute;
+        top: 65vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: none;
+        align-items: center;
+
+        margin: 0 5vw;
+        width: 90vw;
+        justify-content: space-between;
+      }
+
+      .boxes{
+
+        font-weight: 800;
+        border-radius: 5px;
+        border-width: 1vw;
+        margin-top: 0;
+        height: 40vh;
+        width: 20vw;
+        background-color: rgba(92, 100, 94, 0.883);
+      }
+
+      #leftSide{
+        margin-right: 0;
+      
       }
 }
