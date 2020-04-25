@@ -36,7 +36,6 @@
         flex-direction: row;
         flex-wrap: none;
         align-items: center;
-
         margin: 0 5vw;
         width: 90vw;
         justify-content: space-between;
@@ -47,14 +46,48 @@
         font-weight: 800;
         border-radius: 5px;
         border-width: 1vw;
-        margin-top: 0;
-        height: 40vh;
+        margin-top: -5%;
+        height: 20vw;
         width: 20vw;
-        background-color: rgba(92, 100, 94, 0.883);
       }
 
       #leftSide{
         margin-right: 0;
       
       }
+
+      #weirdText{
+        margin-top: 10%;
+        font-family:'Amatic SC', cursive;
+        font-size: 6rem;
+        text-align: center;
+      }
+
+      .textBox{
+        margin-top: 30%;
+        font-family: 'Amatic SC', cursive;
+        font-size: 6rem;
+        text-align: center;
+      }
+
+      #box1{
+        background-color: rgba(72, 96, 168, 0.781);
+
+
+      }
+
+      #box2{
+        background-color: rgba(122, 72, 168, 0.781);
+
+    }
+
+    #box3{
+        background-color: rgba(37, 93, 31, 0.781);
+
+    }
+
+    #box4{
+        background-color: rgba(53, 136, 175, 0.781);
+ 
+    }
 }

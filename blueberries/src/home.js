@@ -26,13 +26,13 @@ class Home extends Component {
             </header>
             <main>
                 <section id="options">
-                    <NavLink to="/history" id="leftSide" className="boxes"><div ><p  className="textBox">History</p></div></NavLink>
+                    <NavLink to="/history" id="box1" className="boxes"><div ><p  className="textBox">History</p></div></NavLink>
 
-                    <NavLink to="/nutrients"  className="boxes"><div><p className="textBox">Nutrients</p></div></NavLink>
+                    <NavLink to="/nutrients" id="box2"  className="boxes"><div><p className="textBox">Nutrients</p></div></NavLink>
 
-                    <NavLink to="/health" id="leftSide" className="boxes"><div ><p id="weirdText" >Health <p>Benefits</p></p></div></NavLink>
+                    <NavLink to="/health" id="box3"  className="boxes"><div ><p id="weirdText" >Health <p>Benefits</p></p></div></NavLink>
 
-                    <NavLink to="recipes" className="boxes"><div ><p className="textBox">Recipes</p></div></NavLink>
+                    <NavLink to="recipes"  id="box4" className="boxes"><div ><p className="textBox">Recipes</p></div></NavLink>
                 </section>
             </main>
             <footer>
