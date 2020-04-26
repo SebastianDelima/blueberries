@@ -357,4 +357,51 @@
         bottom: 55vw;
         left: 75vw;
     }
+
+    #nutrientsHead{
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    #oneCup{
+        font-size: 3.5vw;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nutrientsText{
+        color: rgb(45, 80, 112);
+        text-align: left;
+        font-size: 2vw;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+      
+    }
+
+    #flexNutrients{
+       
+        padding-top: 5%;
+        padding-bottom: 3%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-flow: row;
+    }
+
+    #extraText{
+        text-align: center;
+        color: rgb(45, 80, 112);
+        margin: 0 6%;
+        font-size: 2.5vw;
+        line-height: 1.2;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 5%;
+        font-weight: 900;
+    }
+
+
+
+    #blueLogo2{
+        width: 50%;
+        margin-left: 25%;
+    }
 }
