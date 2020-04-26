@@ -205,7 +205,7 @@
     }
 
     #recipe1{
-        background-color: rgba(53, 136, 175, 0.781);
+        background-color: rgba(166, 213, 235, 0.781);
         height: 100vh;
         width: 100vw;
     }
@@ -404,4 +404,88 @@
         width: 50%;
         margin-left: 25%;
     }
+
+    #genericHeadHeart{
+        text-align: center;
+        height: 100vh;
+        margin-bottom: 10%;
+     }
+
+     #heartImg{
+         width: 30%;
+         height: 30%;
+         margin-top: 5%;
+     }
+
+     .healthText{
+         /* margin-left: -10%; */
+         width: 55%;
+         font-size: 2.2vw;
+         font-family: 'Montserrat', sans-serif;
+         line-height: 1.2;
+     }
+
+     .flexHealth{
+         display: flex;
+         flex-direction: row;
+         /* justify-content: space-evenly; */
+     }
+
+     #heartSub{
+         padding-top: 5vh;
+         text-align: center;
+     }
+
+     #firstSlide{
+         height: 100vh;
+         background-color: rgba(211, 199, 33, 0.89);
+     }
+
+     #link{
+      border-bottom: solid;
+     }
+
+     #secondSlide{
+        height: 100vh;
+        background-color: rgba(255, 123, 0, 0.883);
+     }
+
+     .healthText2{
+        width: 50%;
+        font-size: 2.1vw;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.2; 
+        margin-left: 2%;
+     }
+
+     #videoCancer{
+         margin-top: 8%;
+         margin-left: 5%;
+     }
+
+     #thirdSlide{
+         background-color: rgba(168, 47, 47, 0.678);
+         height: 100vh;
+     }
+
+     #chart{
+         width: 40%;
+        margin-right: 3%;
+         margin-left: 3%;
+     }
+
+     #text3{
+         margin-top: 4%;
+     }
+
+     .healthTitle{
+        margin-top: 5%;
+     }
+
+     #genSub{
+         font-size: 3vw;
+         font-family: 'Montserrat', sans-serif;
+         text-align: center;
+         margin: 2% 20% 0;
+     }
 }
