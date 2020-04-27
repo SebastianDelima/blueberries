@@ -39,7 +39,7 @@ class Home extends Component {
                 
                 <div id="wavy">
                 </div>
-                <NavLink to=""id="references">
+                <NavLink to="/references" id="references">
                     References
                 </NavLink>
             </footer>

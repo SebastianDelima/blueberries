@@ -36,6 +36,7 @@ class Nutrients extends Component{
                     
                        </div>
                        <img id="blueLogo2" src={blue} alt="no img"/>
+                       <p id="heartSub" className="genericSub">Pytonutrients</p>
                        <p id="extraText">
                             Blueberries contain copper, beta-carotene, folate, choline, vitamins A and E, and
                             manganese. As well as anthocyanins, vitamins, and minerals, blueberries contain a

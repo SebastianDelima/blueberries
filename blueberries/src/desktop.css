@@ -575,5 +575,17 @@
         top: 50vh;
         border-radius: 10px;
     }
+
+    #refText{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vw;
+        line-height: 3;
+        text-align: left;
+        
+    }
+
+    .links{
+        border-bottom: solid;
+    }
    
 }
