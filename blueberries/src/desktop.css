@@ -564,5 +564,16 @@
         margin-right: 10%;
         /* margin-top: 5%; */
     }
+
+    #references{
+        font-family: 'Amatic SC', cursive;
+        font-size: 1.5vw;
+        background-color: rgba(0, 128, 0, 0.699);
+        padding: 1%;
+        width: 5%;
+        position: relative;
+        top: 50vh;
+        border-radius: 10px;
+    }
    
 }
