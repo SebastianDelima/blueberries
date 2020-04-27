@@ -1,5 +1,7 @@
 import  React, { Component, Fragment} from 'react';
 import  blue                          from './blueberries.png'
+import  bush                          from './bush.png'
+import  stick                         from './Happ.png'
 
 
 class History extends Component{
@@ -7,23 +9,38 @@ class History extends Component{
         return(
             <Fragment>
                 <header className="genericHead">
-                    <p id="historyTitle">History & Background</p>
+                    <p id="historyTitle">Background</p>
                     <img id="blueLogo" src={blue} alt="no img"/>
-                    <div>
+                    <div id="flexText">
+                   <img src={bush} alt="bush"></img>
                         <p id="historyText">
-                    <p className="colorBoxes one">- Blueberries are perennial flowering plants with blue/purple colored berries.<br></br></p>
-                    <p className="colorBoxes two">- They come from the genus Vaccinium, which also includes cranberries, bilberries, and huckleberries.<br></br></p>
-                    <p className="colorBoxes three">- The plants are bush like structures and can grow up to 10 feet tall.<br></br></p>
-                    <p className="colorBoxes four">- Blueberries are native to North America, but have been transported to other parts of the world as well</p>
-                    <p className="colorBoxes five">- They grow best in warm climates, (June-August)<br></br></p>
-                    <p className="colorBoxes six">- Their dark purple color comes from the rich anthocyanin content in the fruit<br></br></p> 
+                        Blueberries are perennial flowering plants that are native to North America, Asia,
+                        and Scandinavia. Their genius is Vaccinium, sharing the same family as cranberries,
+                        bilberries, and huckleberries. Blueberries are nutrient and antioxidant rich fruits with
+                        many health benefits. Blueberries get their signature royal blue pigment from the
+                        phytonutrient anthocyanin in their skin. Blueberries can be enjoyed year-round as the
+                        North American blueberry season runs from May-August and in the colder months,
+                        imports from South America fill the grocery store shelves. 
                         </p>
-                    </div>
-                   
-
-                    
+                   </div>
+            
                 </header>
                <main>
+                   <div className="sub">
+                    <p id="historyTitle">History</p>
+                    <img id="blueLogo" src={blue} alt="no img"/>
+                   </div>
+                   <div id="timeline">
+                    <img id="stick" src={stick} alt="stick"></img>
+                    <div id="timelineText">
+                    <p>1911 - Frederick Coville (a USDA botanist) and Elizabeth White (daughter of a
+                        cranberry grower) and teamed up to domesticate blueberries. They used Whites family
+                        farm for their experiment.</p><br></br>
+                        <p>1912 - The team discovered blueberries could only thrive in acidic soil AND HAD THEIR
+                            FIRST SUCCESS IN FIELD PLANTING!</p><br></br>
+                        <p>1916 - The first highbush blueberries were harvested and sold in New Jersey!</p><br></br>
+                    </div>
+                   </div>
 
                </main>
             </Fragment>
